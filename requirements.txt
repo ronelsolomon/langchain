@@ -1,0 +1,21 @@
+# Core dependencies for energy data collection
+requests>=2.31.0
+pandas>=2.0.0
+
+# LangChain dependencies
+langchain>=1.2.0
+langchain-core>=1.2.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# LLM providers (install as needed)
+langchain-openai>=0.3.0  # For OpenAI GPT models
+langchain-ollama>=1.0.0   # For local Ollama models
+
+# Vector storage and embeddings
+faiss-cpu>=1.7.0          # For vector similarity search
+sentence-transformers>=2.2.0  # Alternative embeddings
+
+# Optional: For better data handling
+numpy>=1.24.0
+scipy>=1.10.0
